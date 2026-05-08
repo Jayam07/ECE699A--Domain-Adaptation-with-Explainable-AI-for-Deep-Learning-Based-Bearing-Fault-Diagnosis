@@ -843,11 +843,3 @@ Depending on the script, the following outputs are generated:
 
 ---
 
-## 9. Notes for Reproducing Experiments
-
-1. Update dataset paths before running scripts.
-2. Ensure CWRU and Paderborn data files are available locally or in Google Drive.
-3. Use GPU runtime when running in Google Colab.
-4. For Grad-CAM, ensure the final convolution layer is named properly in the model.
-5. Do not upload raw dataset files to GitHub because they are large.
-6. Keep output folders such as `Results/` out of version control if they contain large files.
